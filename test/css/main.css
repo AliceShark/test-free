@@ -1,0 +1,45 @@
+body {
+  cursor: default;
+  width: 100%;
+  min-width: 270px;
+  max-width: 1600px;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.content div {
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  max-width: 560px;
+  min-width: 270px;
+  position: relative;
+  padding: 0 2.5% 56.25% 2.5%;
+  margin: 0 1%;
+  height: 0;
+  overflow: hidden;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-width: 310px;
+  max-width: 560px;
+  height: 75%;
+  max-height: 315px;
+}
+
+.player-first iframe {
+  right: 0;
+}
+
+.player-second iframe {
+  left: 0;
+}
